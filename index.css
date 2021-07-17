@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font: normal bold 16px / normal tahoma;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+article {
+  width: 300px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.521);
+  border-radius: 10px;
+  margin: 50px auto 20px;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px #000203;
+}
+
+article h2 {
+  padding: 10px;
+  color: white;
+}
+
+article input {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+article button {
+  padding: 5px;
+  text-align: left;
+}
+
+article h5 {
+  color: white;
+  margin: 10px 0 10px;
+}
+
+#timer {
+  color: white;
+  padding: 25px;
+}
